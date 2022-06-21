@@ -1,0 +1,44 @@
+
+//judul :kotaksepatu
+//type data benda ruang
+//contoh sebuah balok
+ 
+/*kamus 
+	panj, lebr, ting ← integer
+	Vol ← real
+
+diskripsi
+	input panj
+	input lebr
+	input ting
+	
+	vol ← panj, lebr, ting
+output vol
+ 
+
+— implementasi coding nya —------
+*/
+// judul : belajar dasar dasar type bentukan tanpa type bentukan
+// modifikasi : 23 maret 2022
+// oleh rizqanovic
+
+// kamus
+#include <iostream>
+using namespace std;
+  int p,l,t;
+  float vol;
+  
+//diskripsi
+int main() 
+{
+    cout << "masukkan komponen balok .. \n";
+    
+    cout << "input panjangnya "; cin >>  p;
+    cout << "input lebarnya "; cin >>  l;
+    cout << "input tingginya "; cin >> t;
+    
+    // proses perhitungan
+    vol = p * l * t;
+    
+    cout << "volume  balok dgn p = " << p << ", l = " << l << ", t = " << t << "  adalah " << vol << endl;
+    }
